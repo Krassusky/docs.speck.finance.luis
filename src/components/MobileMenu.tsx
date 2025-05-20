@@ -9,10 +9,10 @@ interface MenuItem {
 }
 
 const menuItems: MenuItem[] = [
-  { title: "Introduction", path: "/overview", icon: "🔍" },
-  { title: "Manifesto", path: "/manifesto", icon: "📜" },
-  { title: "White Paper", path: "/white-paper", icon: "📄" },
-  { title: "Regulatory", path: "/regulatory", icon: "📋" },
+  { title: "Introduction", path: "/overview" },
+  { title: "Manifesto", path: "/manifesto" },
+  { title: "White Paper", path: "/white-paper" },
+  { title: "Regulatory", path: "/regulatory" },
 ];
 
 export const MobileMenu: FC = () => {

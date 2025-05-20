@@ -75,8 +75,8 @@ export const TableOfContents: FC = () => {
   if (headings.length === 0) return null;
 
   return (
-    <aside className="hidden lg:block fixed top-14 right-0 w-44 h-[calc(100vh-3.5rem)] border-l border-gray-200 dark:border-gray-800 overflow-y-auto">
-      <div className="p-4">
+    <aside className="hidden lg:block fixed top-14 right-0 w-56 h-[calc(100vh-3.5rem)] border-l border-gray-200 dark:border-gray-800 overflow-y-auto">
+      <div className="pt-4 pr-3">
         <nav ref={tocRef} className="space-y-1">
           {headings.map((heading, index) => (
             <a
@@ -84,12 +84,12 @@ export const TableOfContents: FC = () => {
               href="#"
               data-heading={heading.title}
               onClick={(e) => handleClick(e, heading.element)}
-              className={`block px-3 py-2 text-sm rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors duration-200 ${
+              className={`block py-1 px-3 text-sm rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors duration-200 ${
                 activeElement === heading.element
-                  ? "text-blue-600 font-medium"
+                  ? "text-blue-600"
                   : "text-gray-600 dark:text-gray-300"
               }`}
-              style={{ marginLeft: `${(heading.level - 1) * 1}rem` }}
+              style={{ marginLeft: "1rem" }}
             >
               {heading.title}
             </a>

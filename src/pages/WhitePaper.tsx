@@ -8,7 +8,7 @@ import Graph4 from "../assets/Technology_Architecture01.jpg";
 export const WhitePaper: FC = () => {
   return (
     <div className="max-w-4xl">
-      <h1 className="text-4xl font-bold mb-6">White Paper</h1>
+      <h1 className="text-4xl font-bold mb-6">Whitepaper</h1>
 
       <p className="mb-4">
         There are cultures that believe in destiny, karma, past lives, and

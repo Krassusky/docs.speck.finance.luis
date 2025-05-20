@@ -75,6 +75,8 @@ export const Regulatory: FC = () => {
         <li>Insurance coverage for digital assets</li>
         <li>24/7 monitoring and incident response</li>
       </ul>
+
+      <h2 className="text-2xl font-bold mt-8 mb-4"></h2>
     </div>
   );
 };

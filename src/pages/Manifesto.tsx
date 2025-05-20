@@ -24,11 +24,11 @@ export const Manifesto: FC = () => {
         To level the playing field? To live the good life!
       </p>
       <p className="mb-4">
-        The rise of web3—powered by public decentralized blockchain technology
-        as an infrastructure for global financial systems—is an unstoppable
+        The rise of web3 powered by public decentralized blockchain technology
+        as an infrastructure for global financial systems is an unstoppable
         revolution! However, navigating uncharted waters without protection
-        isn't sustainable for long-term freedom. Self-custody isn't everyone's
-        cup of tea—and that's perfectly fine.
+        isn't sustainable for long-term freedom. Self custody isn't everyone's
+        cup of tea and that's perfectly fine.
       </p>
       <p className="mb-4">
         Speck was created precisely to bridge these two worlds and address the

@@ -3,7 +3,7 @@ import { FC } from 'react';
 export const Overview: FC = () => {
   return (
     <div className="max-w-4xl">
-      <h1 className="text-4xl font-bold mb-6">Overview</h1>
+      <h1 className="text-4xl font-bold mb-6">Welcome to Speck</h1>
       <p className="mb-4">
         Speck Finance is an international investment platform that uses blockchain as its base technology. We have built a regulatory and technological infrastructure to intermediate the purchase of the world's best assets aimed at protecting and growing the wealth of people living in emerging markets.
       </p>
