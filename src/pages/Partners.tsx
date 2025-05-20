@@ -10,10 +10,10 @@ export const Partners: FC = () => {
       <p className="mb-4">
         We are proud to partner with the following organizations to ensure the
         highest standards of security and compliance:
-        <li>XDC Network</li>
-        <li>Khiza</li>
-        <li>Fireblocks</li>
-        <li>BlindPay</li>
+        <a href="https://xdc.org/"><li>XDC Network</li></a>
+        <a href="https://khiza.com/"><li>Khiza</li></a>
+        <a href="https://fireblocks.io/"><li>Fireblocks</li></a>
+        <a href="https://blindpay.com/"><li>BlindPay</li></a>
       </p>
         </p>
       </div>

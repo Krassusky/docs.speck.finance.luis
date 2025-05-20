@@ -53,9 +53,6 @@ export const FAQ: FC = () => {
             You can reach our support team through multiple channels:
             <ul className="list-disc ml-6 mt-2">
               <li>Email: support@speck.finance</li>
-              <li>Discord: Join our community server</li>
-              <li>Twitter: Follow us for updates and announcements</li>
-              <li>Telegram: Join our community group</li>
             </ul>
           </p>
         </div>
