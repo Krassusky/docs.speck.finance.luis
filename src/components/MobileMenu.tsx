@@ -9,10 +9,12 @@ interface MenuItem {
 }
 
 const menuItems: MenuItem[] = [
-  { title: "Introduction", path: "/overview" },
+  { title: "Welcome to Speck", path: "/" },
   { title: "Manifesto", path: "/manifesto" },
-  { title: "White Paper", path: "/white-paper" },
+  { title: "Whitepaper", path: "/white-paper" },
   { title: "Regulatory", path: "/regulatory" },
+  { title: "Partners", path: "/partners" },
+  { title: "FAQ", path: "/faq" },
 ];
 
 export const MobileMenu: FC = () => {
