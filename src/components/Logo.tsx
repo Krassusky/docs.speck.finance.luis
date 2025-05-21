@@ -6,7 +6,7 @@ export const Logo: FC = () => {
   return (
     <div className="relative group">
       <Link
-        to="/"
+        to="https://speck.finance"
         className="flex items-center gap-3 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
       >
         <img
